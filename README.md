@@ -8,7 +8,7 @@
 ### BioProject submission portal - part 1/2
 Go to the [Submission portal](https://submit.ncbi.nlm.nih.gov/)
 
-Click on `BioProject`
+Enter `BioProjects & BioSamples`
 
 Click on `New submission`
 
