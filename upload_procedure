@@ -1,0 +1,9 @@
+A. Download and install Aspera
+   1. download Aspera from NCBI (http://downloads.asperasoft.com/en/downloads/8?list) OR 
+                                (https://www.ncbi.nlm.nih.gov/sra/docs/submitfiles/#aspera-connect)
+   2. Uncompressed the downloaded file "tar -zxvf ibm-aspera-connect-3.9.7.175481-linux-g2.12-64.tar.gz"
+   3. Install Aspera (sh ibm-aspera-connect-3.9.7.175481-linux-g2.12-64.sh)
+B. 
+
+C. Upload data with Aspera
+~/.aspera/connect/bin/ascp 
