@@ -82,5 +82,26 @@ The orange rectangle is a where to download your key file. You can put your key 
 First, you need to install Aspera on your supercomuter. Second, make sure all your fastq files (they can be compressed using gzip or bzip2), in my case, gz files along with the key file are in the same folder.
 Third, upload everything in your folder via Aspera. My command is:
 ```
-~/.aspera/connect/bin/ascp                                                                          ddfdfffffffffffffffffffffffffffffffffffffffffffff
+~/.aspera/connect/bin/ascp -i <path/to/key_file> -QT -l10000m -k1 -d <path/to/file(s)> subasp@upload.ncbi.nlm.nih.gov:uploads/NCBI_account_email_<random_code>/<submission_folder>/
 ```
+
+I use `~/.aspera/connect/bin/ascp` is because my aspera is installed in the `~/.aspera` folder. If your aspera is pre-installed on the system, just type `ascp`.
+
+`<random_code>`: A random code for upload is provided by NCBI.
+
+`<path/to/key_file>`: key file is provided by NCBI. Download it and save to the same folder where you put all the sequence files. It must be an absolute path, e.g.: `/home/keys/aspera.openssh`.
+
+`<path/to/file(s)>`: An absolute path to your sequencing files on the supercomputer.
+
+`<submission_folder>`: Name it as you want. It is required and will be created automatically.
+
+Once you have uploaded your file successfully. Go back to the SRA submission portal Step 4 Files and select the preload folder. It will have the same name as you specified in <submission_folder> earlier.
+
+Step 5 Overview: Congratulations! You have successfully uploaded your data to `SRA` and created `Bioproject` and `BioSample`.
+
+I can believe this whole process took me 3 days. I hope this tutorial can save your time and make your life easier.
+
+Useful(?) links:
+[SRA Submission Quick Start](https://www.ncbi.nlm.nih.gov/sra/docs/submit/)
+[Troubleshooting SRA submission](https://www.ncbi.nlm.nih.gov/sra/docs/submitquestions/#question5sp)
+[SRA Metadata and Submission Overview](https://www.ncbi.nlm.nih.gov/sra/docs/submitmeta/)
