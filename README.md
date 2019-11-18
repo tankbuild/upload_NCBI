@@ -82,5 +82,5 @@ The orange rectangle is a where to download your key file. You can put your key 
 First, you need to install Aspera on your supercomuter. Second, make sure all your fastq files (they can be compressed using gzip or bzip2), in my case, gz files along with the key file are in the same folder.
 Third, upload everything in your folder via Aspera. My command is:
 ```
-~/.aspera/connect/bin/ascp
+~/.aspera/connect/bin/ascp                                                                          ddfdfffffffffffffffffffffffffffffffffffffffffffff
 ```
