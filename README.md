@@ -6,7 +6,8 @@
    3. Install Aspera (sh ibm-aspera-connect-3.9.7.175481-linux-g2.12-64.sh)
 ## prepreparation for data uploading
 ### BioProject submission portal - part 1/2
-Go to the [https://submit.ncbi.nlm.nih.gov/](Submission portal)
+
+Go to the [Submission portal](https://submit.ncbi.nlm.nih.gov/)
 Click on `BioProject`
 Click on `New submission`
 Step 1 Submitter: There shouldn't be any problem, just ask yourself who you are.
