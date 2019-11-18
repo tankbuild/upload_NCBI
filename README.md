@@ -103,5 +103,7 @@ I can believe this whole process took me 3 days. I hope this tutorial can save y
 
 Useful(?) links:
 [SRA Submission Quick Start](https://www.ncbi.nlm.nih.gov/sra/docs/submit/)
+
 [Troubleshooting SRA submission](https://www.ncbi.nlm.nih.gov/sra/docs/submitquestions/#question5sp)
+
 [SRA Metadata and Submission Overview](https://www.ncbi.nlm.nih.gov/sra/docs/submitmeta/)
