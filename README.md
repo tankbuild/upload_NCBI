@@ -102,6 +102,7 @@ Step 5 Overview: Congratulations! You have successfully uploaded your data to `S
 I can believe this whole process took me 3 days. I hope this tutorial can save your time and make your life easier.
 
 Useful(?) links:
+
 [SRA Submission Quick Start](https://www.ncbi.nlm.nih.gov/sra/docs/submit/)
 
 [Troubleshooting SRA submission](https://www.ncbi.nlm.nih.gov/sra/docs/submitquestions/#question5sp)
