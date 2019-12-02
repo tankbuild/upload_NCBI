@@ -1,0 +1,14 @@
+A. Navigate to the source folder where the files for submission are;
+1. Establish an FTP connection using the credentials below:
+   Address: ftp-private.ncbi.nlm.nih.gov
+   Username: subftp
+   Password: w4pYB9VQ
+   Code:ftp ftp-private.ncbi.nlm.nih.gov
+2. Navigate to your account folder:
+  cd uploads/673781963_qq.com_nugIYkSe
+3. Create a subfolder (required!) with a meaningful name:
+   mkdir new_folder
+4. Navigate to the target folder you just created:
+   cd new_folder
+5. Copy your files into the target folder:
+   put file_name 
