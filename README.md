@@ -4,6 +4,8 @@
                                 (https://www.ncbi.nlm.nih.gov/sra/docs/submitfiles/#aspera-connect)
    2. Uncompressed the downloaded file "tar -zxvf ibm-aspera-connect-3.9.7.175481-linux-g2.12-64.tar.gz"
    3. Install Aspera (sh ibm-aspera-connect-3.9.7.175481-linux-g2.12-64.sh)
+## Upload RAD-seq data
+   **For submit RAD-seq data, we should submit the demultplexed Reads. And remember! each individual should have its own          Biosample**
 ## Pre-preparation for data uploading
 ### BioProject submission portal - part 1/2
 Go to the [Submission portal](https://submit.ncbi.nlm.nih.gov/)
@@ -23,7 +25,7 @@ Step 4 General Info: You will be asked to select a publication date. It could be
 Step 5 BioSample: Here's the fun part! If you are like me, the first time user, you will have to click on `register at BioSample` first then come back to this page later.
 
 ### BioSample submission portal
-`*Please Note*: If you have multiple samples to submit, then complete the Bioproject without registering Biosample, then submit Biosample in batch` at [Submission Portal](https://submit.ncbi.nlm.nih.gov/subs/biosample/)
+`**Please Note**: If you have multiple samples to submit, then complete the Bioproject without registering Biosample, then submit Biosample in batch` at [Submission Portal](https://submit.ncbi.nlm.nih.gov/subs/biosample/)
 
 Now you have been automatcally directed to BioSample submission.
 
