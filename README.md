@@ -24,6 +24,7 @@ Step 5 BioSample: Here's the fun part! If you are like me, the first time user, 
 
 ### BioSample submission portal
 `Please Note: If you have multiple samples to submit, then complete the Bioproject without registering Biosample, then submit Biosample in batch` at [Submission Portal](https://submit.ncbi.nlm.nih.gov/subs/biosample/)
+
 Now you have been automatcally directed to BioSample submission.
 
 Step 1 General Information: Again, here you can select a publication date.
