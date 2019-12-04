@@ -6,6 +6,10 @@
    3. Install Aspera (sh ibm-aspera-connect-3.9.7.175481-linux-g2.12-64.sh)
 ## Upload RAD-seq data
    **For submit RAD-seq data, we should submit the demultplexed Reads. And remember! each individual should have its own          Biosample**
+## Answer from NLM support (nlm-support@nlm.nih.gov)
+   A BioProject is a description of a sequencing study. This definition is intentionally vague so that the SRA can accommodate a variety of submission types (including single and multi-method studies) and user needs. You can submit all of this data under one BioProject or three dependent on your needs.
+
+The SRA requests that data be demultiplexed to sample whenever possible. Because only a single BioSample can be linked to a sequence file the sequences should be demultiplexed. If this is not possible, then please create a BioSample that adequately describes your pooled data, and provide a description on how to demultiplex your reads.
 ## Pre-preparation for data uploading
 ### BioProject submission portal - part 1/2
 Go to the [Submission portal](https://submit.ncbi.nlm.nih.gov/)
