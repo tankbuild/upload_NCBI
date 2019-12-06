@@ -11,7 +11,7 @@
                                           subasp@upload.ncbi.nlm.nih.gov:uploads/673781963_qq.com_1Gd1xxkL/assembly
 
 # Uploading SRA and RAD-seq reads to NCBI
-# male genome reads
+# male genome reads (https://submit.ncbi.nlm.nih.gov/about/sra/)
 /usr/local/bioinfo/src/Aspera/aspera-connect-3.5.1/bin/ascp -i /home/mwen/work/genomes/aspera.openssh -QT -l100m -k1 -d \
                                             /home/mwen/work/genomes/goldfish/upload2NCBI/genome/* \
                                             subasp@upload.ncbi.nlm.nih.gov:uploads/673781963_qq.com_1Gd1xxkL/genome_sra
