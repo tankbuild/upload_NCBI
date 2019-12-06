@@ -1,7 +1,7 @@
 #!/bin/sh
 #$ -M ming.wen@inra.fr
 #$ -m be
-#$ -N NCBI data uploading
+#$ -N NCBI_data_uploading
 #$ -pe parallel_smp 8
 
 
